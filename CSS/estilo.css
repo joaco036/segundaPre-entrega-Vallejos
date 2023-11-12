@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -9,6 +9,11 @@
 body {
     background-color: antiquewhite;
     text-align: center;
+}
+
+img {
+    width: 50%;
+    margin: 2% 0%;
 }
 
 /* Ul */
@@ -27,15 +32,11 @@ header {
 }
 
 
-img {
-    width: 50%;
-    margin: 2% 0%;
-}
 
 .logo {
     width: 200px;
-    text-align:start;
     padding-bottom: 2%;
+    padding-top: 0%;
 
 }
 
@@ -63,6 +64,20 @@ p {
     font-size: 25px;
 }
 
+.flyer {
+    color: black;
+    margin-top: 12%;
+}
+
+.actividad {
+    width: 30%;
+}
+
+.textoActividad {
+    text-transform: uppercase;
+    font-weight:bold ;
+}
+
 iframe {
     width: 1000px;
 }
@@ -75,17 +90,12 @@ h2 {
 
 footer {
     border-top: 1px black solid;
-    margin: 10px 30px 30px 30px;
-    padding: 10px 30px 30px 30px;
+    padding: 1%;
+    background-color: #CF573A;
 }
 
 .footer {
     font-size: 20px;
-}
-
-.flyer {
-    display: inline;
-    width: 200px;
 }
 
 /* contacto */
@@ -101,8 +111,8 @@ label {
     font-weight: bold;
     width: 100%;
 }
-input
-textarea{
+
+input textarea {
     display: block;
     padding: 10px;
     margin: 10px;
