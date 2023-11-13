@@ -78,6 +78,11 @@ p {
     font-weight:bold ;
 }
 
+.contacto{
+    width: 1;
+    display: inline;
+}
+
 iframe {
     width: 1000px;
 }
